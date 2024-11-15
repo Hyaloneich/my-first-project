@@ -1,0 +1,85 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  #app {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Başlık */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  /* Görev Ekleme Alanı */
+  .task-input {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .task-input button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .task-input button:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Görev Listesi */
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  #taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #taskList li button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #taskList li button:hover {
+    background-color: #c9302c;
+  }
+  
